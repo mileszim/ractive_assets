@@ -3,7 +3,7 @@ module Ractive
   module Rails
     class Ractive < Tilt::Template
       include ActionView::Helpers::JavaScriptHelper
-      self.metadata[:mime_type] = 'application/javascript'
+      metadata[:mime_type] = 'application/javascript'
 
       def prepare; end
 
