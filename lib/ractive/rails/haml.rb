@@ -4,7 +4,7 @@ require 'haml'
 module Ractive
   module Rails
     class Haml < Tilt::Template
-      metadata[:mime_type] = 'application/javascript'
+      self.default_mime_type = 'application/javascript'
 
       def prepare
         options = @options.merge(:filename => eval_file, :line => line)
