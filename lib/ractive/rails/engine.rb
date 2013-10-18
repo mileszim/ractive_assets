@@ -5,7 +5,7 @@ module Ractive
         Sprockets::Engines
         Sprockets.register_engine('.rac', Ractive)
         Sprockets.register_engine('.ractive', Ractive)
-        Sprockets.register_engine('.ractive-haml', Ractive::Rails::Haml)
+        Sprockets.register_engine('.jhaml', Haml)
       end
     end
   end
