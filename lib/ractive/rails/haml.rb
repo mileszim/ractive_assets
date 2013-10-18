@@ -12,7 +12,7 @@ module Ractive
       end
 
       def evaluate(scope, locals, &block)
-        @data = @engine.render(scope, locals, &block)
+        @engine.render(scope, locals, &block)
       end
     end
   end

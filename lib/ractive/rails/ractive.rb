@@ -19,7 +19,7 @@ module Ractive
       end
 
       def evaluate(scope, locals, &block)
-        compiled_template = context.eval("Ractive.parse(\"#{escape_javascript(@data)}\")")
+        compiled_template = context.eval("Ractive.parse(\"#{escape_javascript(data)}\")")
         <<-TEMPLATE
           this.RactiveTemplates || (this.RactiveTemplates = {});
           this.RactiveTemplates['#{scope.logical_path}'] = #{compiled_template.to_json};
