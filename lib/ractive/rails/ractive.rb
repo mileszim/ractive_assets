@@ -3,7 +3,8 @@ module Ractive
     class Ractive
       class << self
         def parse(source, options={})
-          context.eval("Ractive.parse(#{source.inspect})")
+          #context.eval("Ractive.parse(#{source.inspect})")
+          source
         end
 
         private
