@@ -1,7 +1,7 @@
 module RactiveAssets
   # Change config options in an initializer:
   #
-  # Ractive::Config.path_prefix = 'app/templates'
+  # RactiveAssets::Config.path_prefix = 'app/templates'
   module Config
     extend self
 
