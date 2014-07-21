@@ -1,10 +1,10 @@
 ractive-rails
 =============
 
-### Server side
+### Gemfile
 
 ```ruby
-gem ractive-rails
+gem 'ractive_assets', github: 'unity/ractive_assets'
 ```
 
 Add the javascript to your HTML page:
