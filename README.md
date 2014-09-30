@@ -14,7 +14,7 @@ We're really grateful for all help packaging it! (Mainly writing proper docs and
 ### Gemfile
 
 ```ruby
-gem 'ractive_assets', github: 'unity/ractive_assets'
+gem 'ractive_assets', github: 'mileszim/ractive_assets'
 ```
 
 - Yes, we need to publish it to rubygems, but that's got to wait until some docs and tests are written.
